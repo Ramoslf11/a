@@ -1,0 +1,170 @@
+.container-margem {
+  padding-left: 10px;
+  /* Ajuste aqui se quiser mais/menos margem à esquerda */
+  padding-right: 10px;
+  /* Ajuste aqui se quiser mais/menos margem à direita */
+  margin-top: 70px;
+ 
+}
+
+.imagem-direita {
+  padding-right: 0;
+  text-align: right;
+}
+
+.imagem-esquerda {
+  padding-left: 0;
+  text-align: left;
+}
+
+.navbar-custom {
+  justify-content: space-between;
+}
+
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+body {
+  margin-top: 140px;
+  font-size: 12px;
+  background-color: #8bc28e;
+  text-align: justify;
+  padding-bottom: 50px;
+  height: 69vb;
+}
+
+.navbar-custom {
+  background-color: #6dc972;
+  text-indent: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  top: 0;  /* Fixando no topo da tela */
+  left: 0;  /* Alinha o menu à esquerda */
+  width: 100%;  /* Garantindo que o menu ocupe toda a largura da tela */
+  z-index: 1000;  /* Garante que o menu fique acima de outros elementos */
+}
+
+.navbar-custom .nav-link {
+  color: black !important;
+
+}
+
+.navbar-custom .nav-link:hover {
+  color: blue !important;
+  /* cor ao passar o mouse (dourado como exemplo) */
+}
+
+/* Torna o fundo do dropdown transparente */
+.dropdown-menu {
+  background-color: white !important;
+  border: none;
+  /* opcional: remove borda */
+  box-shadow: none;
+  /* opcional: remove sombra */
+}
+
+/* Se quiser deixar o texto visível, defina a cor */
+.dropdown-item {
+  color: black;
+  /* ou outra cor que contraste com o fundo */
+}
+
+.label {
+  text-align: center;
+}
+
+.label-text {
+  color: #6c757d;
+
+}
+
+.container {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.form-cadastro {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  /* Centraliza na horizontal e dá espaço em cima/baixo */
+  padding: 40px;
+  justify-content: center;
+  /* Alinha horizontalmente */
+  align-items: center;
+  /* Alinha verticalmente */
+  min-height: 100vh;
+  /* Ocupa 100% da altura da tela */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background: #6dc972;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+.tutorial-container {
+  display: flex;
+  /* Ativa o flexbox */
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente (opcional) */
+  height: 50vh;
+  /* Altura da tela inteira */
+}
+
+.titulo-container {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/* Estilo específico para listas nas novas páginas */
+.container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+/* Título das seções nas novas páginas */
+.container h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.container-calendario {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 50px;  /* Espaço do topo */
+  min-height: 80vh; /* ocupa boa parte da tela sem grudar no footer */
+}
+
+.container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.dica-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+
+
+
+

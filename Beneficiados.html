@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Como Atuamos</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- INÍCIO DO MENU -->
+  <nav class="navbar navbar-expand-lg navbar-custom position-fixed">
+    <div class="container-fluid d-flex align-items-center">
+
+      <a class="navbar-brand" href="Index.html">
+        <img src="img/logo site.jpg" alt="Logo Esquerda" width="90" height="90">
+      </a>
+
+      <div class="collapse navbar-collapse navbar-center" id="navMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html">
+              Quem Somos
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="ComoAtuamos.html">
+              Como Atuamos
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="conteudosDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Conteúdos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="conteudosDropdown">
+              <a class="dropdown-item" href="plantação.html">Tutoriais</a>
+              <a class="dropdown-item" href="sustentabilidade.html">Dicas de Sustentabilidade</a>
+              <a class="dropdown-item" href="calendario.html">Calendário de Cultivo</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="doacoesDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Doações
+            </a>
+            <div class="dropdown-menu" aria-labelledby="doacoesDropdown">
+              <a class="dropdown-item" href="Doadores.html">Doadores</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Beneficiados.html">Beneficiados</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <a class="navbar-brand" href="Index.html">
+        <img src="img/logo site.jpg" alt="Logo Esquerda" width="90" height="90">
+      </a>
+    </div>
+  </nav>
+  <!--FIM DO MENU-->
+  <form>
+    <div class="container form-cadastro mt-5">
+      <div class="form-row align-items-center">
+        <div class="form-group col-8">
+          <input type="text" class="form-control" id="inputNome" placeholder="Nome..." minlength="3" maxlength="50">
+        </div>
+        <div class="form-group col-4">
+          <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome..." minlength="5"
+            maxlength="30">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-8">
+          <input type="text" class="form-control" id="inputCPF" placeholder="CPF..." minlength="14" required
+            maxlength="14">
+        </div>
+        <div class="form-group col-md-4">
+          <input type="text" class="form-control" id="inputTelefone" placeholder="Telefone..." minlength="15"
+            maxlength="15">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-2">
+          <input type="text" class="form-control" id="inputCEP" placeholder="CEP..." minlength="9" maxlength="9">
+        </div>
+        <div class="form-group col-md-4">
+          <select id="inputEstado" class="form-control">
+            <option value="" selected>Estado...</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <input type="text" class="form-control" id="inputCity" placeholder="Cidade...">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-10">
+          <input type="text" class="form-control" id="inputRua" placeholder="Rua...">
+        </div>
+        <div class="form-group col-2">
+          <input type="text" class="form-control" id="inputNumero" placeholder="Número..." min="1" maxlength="4">
+        </div>
+      </div>
+      <div class="form grupo">
+        <input type="number" class="form-control" id="inputQntdPessoas"
+          placeholder="Quantidades de moradores na residência" min="1" max="8">
+      </div>
+
+      <button onclick="Concluir()" type="submit" class="btn btn-primary mt-3 col-12">Finalizar Cadastro</button>
+
+    </div>
+  </form>
+  <footer>
+    <h6>
+      &copy; 2025 Plantando o Futuro. Todos os direitos reservados.
+    </h6>
+  </footer>
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+<script src="index.js"></script>
+
+</html>
