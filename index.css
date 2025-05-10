@@ -4,7 +4,7 @@
   padding-right: 10px;
   /* Ajuste aqui se quiser mais/menos margem à direita */
   margin-top: 70px;
- 
+
 }
 
 .imagem-direita {
@@ -44,10 +44,14 @@ body {
   text-indent: 20px;
   font-size: 16px;
   font-weight: bold;
-  top: 0;  /* Fixando no topo da tela */
-  left: 0;  /* Alinha o menu à esquerda */
-  width: 100%;  /* Garantindo que o menu ocupe toda a largura da tela */
-  z-index: 1000;  /* Garante que o menu fique acima de outros elementos */
+  top: 0;
+  /* Fixando no topo da tela */
+  left: 0;
+  /* Alinha o menu à esquerda */
+  width: 100%;
+  /* Garantindo que o menu ocupe toda a largura da tela */
+  z-index: 1000;
+  /* Garante que o menu fique acima de outros elementos */
 }
 
 .navbar-custom .nav-link {
@@ -145,8 +149,10 @@ footer {
 
 .container-calendario {
   font-family: "Times New Roman", Times, serif;
-  padding-top: 50px;  /* Espaço do topo */
-  min-height: 80vh; /* ocupa boa parte da tela sem grudar no footer */
+  padding-top: 50px;
+  /* Espaço do topo */
+  min-height: 80vh;
+  /* ocupa boa parte da tela sem grudar no footer */
 }
 
 .container h1 {
@@ -164,7 +170,31 @@ footer {
   padding: 20px;
 }
 
+/* RESPONSIVIDADE GERAL */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 60px;
+    height: 60px;
+  }
 
+  .navbar-custom {
+    font-size: 14px;
+    flex-direction: column;
+  }
 
+  .navbar-center {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-top: 10px;
+  }
 
+  .tutorial-container {
+    flex-direction: column;
+    height: auto;
+  }
 
+  .dica-card {
+    width: 100% !important;
+    margin: 10px 0;
+  }
